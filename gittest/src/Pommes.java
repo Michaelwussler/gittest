@@ -1,4 +1,18 @@
 
 public class Pommes {
-int mitMajo=0;
+
+
+
+	public static boolean mitKetchup;
+	public static boolean mitMayo=true;
+	
+	public static boolean rotWeiss(){
+		if (Pommes.mitKetchup && Pommes.mitMayo){
+			return true;
+		}
+		else
+			return false;
+	}
+	
+
 }

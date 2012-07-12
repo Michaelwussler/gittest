@@ -3,6 +3,7 @@ public class Pommes {
 
 	public static boolean mitKetchup;
 	public static boolean mitMayo;
+	int mitMajo_int=0;
 	
 	public static boolean rotWeiss(){
 		if (Pommes.mitKetchup && Pommes.mitMayo){
@@ -12,5 +13,8 @@ public class Pommes {
 			return false;
 	}
 	
+	public void essen(){
+		
+	}
 	
 }
